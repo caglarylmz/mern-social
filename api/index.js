@@ -5,7 +5,6 @@ const dotenv = require("dotenv");
 const helmet = require("helmet");
 const morgan = require("morgan");
 
-
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
 
@@ -17,6 +16,7 @@ mongoose.connect(
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
+    useFindAndModify: false,
   },
   () => {
     console.log("Connected to MongoDB");
