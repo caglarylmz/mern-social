@@ -4,3 +4,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+.home-container{
+    display: flex;
+    width: 100%;
+}
