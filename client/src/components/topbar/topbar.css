@@ -1,0 +1,152 @@
+.topbar-container {
+    height: 100px;
+    width: 100%;
+    background-color: #FFC107;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.topbar-top {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*Container 12 parça. Bunu flex ile paylaştırıyoruz*/
+.topbar-top-left {
+    flex: 3;
+}
+
+.topbar-top-logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #292826;
+    cursor: pointer;
+}
+
+.topbar-top-center {
+    flex: 5;
+}
+
+.search-bar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.search-input {
+    border: none;
+    width: 90%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.topbar-top-right {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: 292826;
+}
+
+.topbar-top-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.topbar-top-link {
+    cursor: pointer;
+    color: #292826;
+    margin-right: 10px;
+}
+
+.topbar-top-link:hover {
+    color: #f3f3f3;
+}
+
+.topbar-top-link:focus {
+    color: #f3f3f3;
+}
+
+.topbar-top-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-top-icon {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbar-top-icon-badge {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    color: #292826;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.topbar-top-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topbar-bottom {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-bottom-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.topbar-bottom-link {
+    cursor: pointer;
+    color: #292826;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.topbar-bottom-link:hover {
+    color: #f3f3f3;
+}
+
+.topbar-bottom-link:focus {
+    color: #f3f3f3;
+}
