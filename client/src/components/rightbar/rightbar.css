@@ -1,3 +1,75 @@
 .rightbar {
   flex: 3.5;
+
+}
+
+.rightbar-wrapper {
+  padding: 20px 20px 0 0;
+
+}
+
+.birtday-container {
+  display: flex;
+  align-items: center;
+}
+
+.birtday-container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birtday-text {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbar-ad {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightbar-title {
+  margin-bottom: 20px;
+}
+
+.rightbar-friendlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rightbar-firendlist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rightbar-profileImg-container {
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightbar-profileImg-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightbar-person-online {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: green;
+  top: 2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightbar-person-username {
+  font-weight: 500;
 }

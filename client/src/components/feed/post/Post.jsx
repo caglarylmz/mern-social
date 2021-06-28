@@ -19,8 +19,20 @@ export default function Post() {
             <MoreVert />
           </div>
         </div>
-        <div className="post-center"></div>
-        <div className="post-bottom"></div>
+        <div className="post-center">
+          <span className="post-text">Hey! Its my first post</span>
+          <img src="/assets/post/1.webp" alt="" />
+        </div>
+        <div className="post-bottom">
+          <div className="post-bottom-left">
+            <img className="post-bottom-icon" src="/assets/like.png" alt="" />
+            <img className="post-bottom-icon" src="/assets/hearth.png" alt="" />
+            <span className="post-bottom-likeCounter">12 people like it</span>
+          </div>
+          <div className="post-bottom-right">
+            <span className="post-bottom-commentText">9 comments</span>
+          </div>
+        </div>
       </div>
     </div>
   );
